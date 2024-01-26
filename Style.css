@@ -1,0 +1,141 @@
+h1{
+        text-align: center;
+    }
+    .box1 {
+      float: left;
+      width: 31.5%;
+      height: 200px;
+      background-color: #9c9c9c;
+      margin: 150px 10px 10px 10px; 
+      text-align: center;
+      
+     align-items: flex-start;
+     border: 100px black;
+    }
+    .box2 {
+      float: left;
+      width: 31.5%;
+      height: 200px;
+      background-color: #9c9c9c;
+      margin: 150px 10px 10px 10px; 
+      text-align: center;
+      align-items: flex-start;
+      border: 100px black;
+    }
+    .box3 {
+      float: left;
+      width: 31.5%;
+      height: 200px;
+      background-color: #9c9c9c;
+      margin: 150px 10px 10px 10px; 
+      text-align: center;
+      align-items: flex-start;
+      border: 100px black;
+    }
+   
+    h2{
+  position: relative;
+  top: -8%;
+  left: 70%;
+  box-sizing: border-box; 
+  height: 25%;
+  width: 30%;
+  size: 10px;
+  font-size: large;
+  
+  background-color: pink;
+  border: none;
+  border-color: black; 
+}
+h3{
+    
+  position: relative;
+  top: -9%;
+  left: 70%;
+  box-sizing: border-box; 
+  height: 25%;
+  width: 30%;
+  size: 10px;
+  font-size: large;
+  background-color: red;
+  
+
+}
+h4{
+    
+    position: relative;
+    top: -12%;
+    left: 70%;
+    box-sizing: border-box;
+    height: 25%;
+    width: 30%;
+    size: 10px;
+    font-size: large;
+    background-color: yellow;
+   
+  }
+
+@media only screen and (max-width: 767px) {
+  .box1 {
+    float: none; 
+    width: 80%; 
+    margin: 10% 10% 10% 10%;  
+  }
+  .box2 {
+    float: none;
+    width: 80%; 
+    margin: 10% 10% 10% 10%; 
+  }
+  .box3 {
+    float: none; 
+    width: 80%; 
+    margin: 10% 10% 10% 10%; 
+  }
+  h2{
+  position: relative;
+  top: 0;
+  left: 70%;}
+  h3{
+  position: relative;
+  top: 0;
+  left: 70%;
+}
+h4{
+  position: relative;
+  top: 0;
+  left: 70%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .box1 {
+    float: left; 
+    width: 48.5%; 
+    margin: 0 5px; 
+     
+    }
+    .box2 {
+    float: right; 
+    width: 48.5%; 
+    margin: 0 5px; 
+    }
+    .box3 {
+        
+        float: left; 
+    width: 99%; 
+    margin: 20px 20px 20px 5px; 
+    }
+    h2{
+  position: relative;
+  top: -7%;
+  left: 70%;
+}
+h3{
+  position: relative;
+  top: -8.5%;
+  left: 70%;}
+  h4{
+  position: relative;
+  top: -11.5%;
+  left: 70%;}
+}    
+
